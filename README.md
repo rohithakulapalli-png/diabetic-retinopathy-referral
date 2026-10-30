@@ -9,6 +9,8 @@ An honestly evaluated model for detecting **referable diabetic retinopathy** (mo
 
 > Research code only. It is not a medical device and must not be used for clinical decisions.
 
+The full write-up, with every result and the lessons learned, is in [REPORT.md](REPORT.md).
+
 ## Results
 
 Four versions were trained on Kaggle's free T4 GPUs. Thresholds were locked on validation data before any test result was seen. IDRiD (516 photos from an eye clinic in Nanded, India, taken with a different camera) was never used for training or tuning.
