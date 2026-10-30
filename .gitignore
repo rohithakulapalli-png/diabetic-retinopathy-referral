@@ -1,0 +1,11 @@
+# Data, model weights and run outputs stay out of the repository
+data/
+runs/
+smoke/
+*.pt
+*.pth
+*.zip
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
